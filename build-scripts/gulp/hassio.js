@@ -26,10 +26,6 @@ document.body.appendChild(el);
   `,
     { encoding: "utf-8" }
   );
-  // fs.copyFileSync(
-  //   path.resolve(paths.hassio_output_root, "frontend_es5/entrypoint.js"),
-  //   path.resolve(paths.hassio_output_root, "entrypoint.js")
-  // );
 }
 
 gulp.task(
